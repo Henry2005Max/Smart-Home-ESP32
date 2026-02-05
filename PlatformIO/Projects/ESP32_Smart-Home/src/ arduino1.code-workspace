@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../Desktop/ arduino1"
+		},
+		{
+			"name": "ESP32_Blink_Test",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
