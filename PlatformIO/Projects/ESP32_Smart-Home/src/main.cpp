@@ -3,12 +3,12 @@
 // --- 1. BLYNK CONFIG ---
 #define BLYNK_TEMPLATE_ID "TMPL2sDP-Ppku"
 #define BLYNK_TEMPLATE_NAME "New Template"
-#define BLYNK_AUTH_TOKEN "SMNTlYdKFwTOa3XS6NtTYDpgFlV7wYYR"
+#define BLYNK_AUTH_TOKEN ""
 
 // --- 2. WIFI DETAILS ---
 // (Change these to "Henry iPhone" if you are using your hotspot!)
 char ssid[] = "MTN_4G_56DDF7";
-char pass[] = "756C345D";
+char pass[] = "";
 
 #include <WiFi.h>
 #include <WiFiClient.h>
