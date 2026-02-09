@@ -45,6 +45,7 @@ This final year project implements a fully automated smart home system that comb
 ### Phase 1: Core Automation & Sensing
 
 - ✅ **Environmental Monitoring**: DHT11 sensor for temperature and humidity tracking
+- ✅ **Secure Access Control**: RFID RC522 module for contactless door authentication
 - ✅ **Visual Display**: OLED screen for real-time data visualization
 - ✅ **Weather Station**: Fully functional mini weather station with rain detection
 - ✅ **Automated Cooling**: Relay Channel 1 controls a fan based on system logic
@@ -125,6 +126,8 @@ This final year project implements a fully automated smart home system that comb
 |**Jumper Wires**                  |Male-to-Male, Male-to-Female|40+     |Connections             |
 |**Power Supply**                  |5V 2A minimum               |1       |System power            |
 |**Resistors**                     |10kΩ (for LDR divider)      |2       |Voltage division        |
+|**RFID RC522 Module**             | 13.56MHz                   | 1      | Door access control    |
+|**RFID Cards/Tags**               | 13.56MHz compatible        | 2-5    | Access authentication  |
 
 ## 💻 Software Requirements
 
@@ -137,6 +140,7 @@ This final year project implements a fully automated smart home system that comb
 ### Required Libraries
 
 ```cpp
+#include <MFRC522.h>              // RFID RC522 library
 // Core ESP32 Libraries
 #include <WiFi.h>
 #include <HTTPClient.h>
@@ -229,6 +233,12 @@ lib_deps =
 
 // DHT Sensor Type
 #define DHT_TYPE DHT11
+// RFID RC522 Pins (SPI)
+#define RFID_SS_PIN    5       // SPI Chip Select
+#define RFID_RST_PIN   27      // Reset Pin
+#define RFID_MOSI_PIN  23      // SPI MOSI
+#define RFID_MISO_PIN  19      // SPI MISO  
+#define RFID_SCK_PIN   18      // SPI Clock
 ```
 
 ## 🚀 Installation & Setup
