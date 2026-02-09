@@ -19,7 +19,6 @@
 - [Phase-wise Development](#phase-wise-development)
 - [Voice Commands](#voice-commands)
 - [API Integration](#api-integration)
-- [Circuit Diagram](#circuit-diagram)
 - [Usage Guide](#usage-guide)
 - [Troubleshooting](#troubleshooting)
 - [Future Enhancements](#future-enhancements)
@@ -515,41 +514,7 @@ GET https://blynk.cloud/external/api/batch/update?token=YOUR_API_TOKEN&V1=1&V2=0
 - Regenerate token if compromised
 - Monitor API usage in Blynk console
 
-## 📐 Circuit Diagram
 
-```
-                    ESP32 Development Board
-                    ┌─────────────────────┐
-                    │                     │
-DHT11 ──────────────┤ GPIO 4              │
-Rain Sensor ────────┤ GPIO 5              │
-LDR Circuit ────────┤ GPIO 34 (ADC)       │
-                    │                     │
-OLED SDA ───────────┤ GPIO 21 (I2C)       │
-OLED SCL ───────────┤ GPIO 22 (I2C)       │
-                    │                     │
-Window Servo ───────┤ GPIO 18 (PWM)       │
-Door Servo ─────────┤ GPIO 19 (PWM)       │
-                    │                     │
-4CH Relay IN1 (Fan)─┤ GPIO 25             │
-4CH Relay IN2 (Light)┤ GPIO 26            │
-4CH Relay IN3 ──────┤ (Reserved)          │
-4CH Relay IN4 ──────┤ (Reserved)          │
-                    │                     │
-5V ─────────────────┤ VIN                 │
-GND ────────────────┤ GND                 │
-                    └─────────────────────┘
-
-LDR Voltage Divider Circuit:
-    3.3V
-     │
-    LDR
-     │
-     ├────── GPIO 34
-     │
-   10kΩ
-     │
-    GND
 ```
 
 > **Note:** For detailed wiring diagrams with color-coded connections, refer to the `/docs/wiring-diagrams/` folder in this repository.
@@ -787,16 +752,6 @@ Contributions are welcome! If you’d like to improve this project:
 
 Please ensure your code follows the existing style and includes comments.
 
-## 📄 License
-
-This project is licensed under the MIT License - see the <LICENSE> file for details.
-
-You are free to:
-
-- Use this project for personal or commercial purposes
-- Modify and adapt the code
-- Distribute copies
-- Use it for educational purposes
 
 **Attribution appreciated but not required!**
 
@@ -818,10 +773,8 @@ You are free to:
 - [ESP32Servo Library](https://github.com/madhephaestus/ESP32Servo)
 
 ### Special Thanks
-
-- **Project Supervisor**: [Supervisor Name] - Guidance and mentorship
-- **Department of [Your Department]**: Resources and support
-- **Fellow Students**: Collaboration and testing assistance
+- **Department of Faculty of Computing**: Resources and support
+- **Fellow Students**: Temitope https://github.com/Jcolereincarnate 
 
 ### Inspiration
 
@@ -831,22 +784,18 @@ This project was inspired by the growing need for affordable, customizable smart
 
 ## 📞 Contact & Support
 
-**Project Author**: [Your Name]  
-**Email**: [your.email@example.com]  
-**University**: [Your University Name]  
-**Department**: [Your Department]  
-**Academic Year**: Final Year Project (2024-2025)
+**Project Author**: Ehindero Henry 
+**Email**: ehinderohenry7@gmail.com
+**University**: Ajayi Crowther University
+**Department**: Computer Science 
+**Academic Year**: Final Year Project (2025-2026)
 
 ### Repository
 
-- **GitHub**: [github.com/yourusername/esp32-smart-home](https://github.com/yourusername/esp32-smart-home)
-- **Documentation**: See `/docs` folder for detailed guides
+- **GitHub**: [github.com/Henry2005Max/Smart-Home-ESP32](https://github.com/Henry2005Max/Smart-Home-ESP32)
 - **Issues**: Report bugs or request features via GitHub Issues
 
 ### Project Demo
-
-📹 **Video Demo**: [YouTube Link]  
-📊 **Presentation**: [Google Slides/PowerPoint Link]  
 📸 **Gallery**: See `/images` folder for project photos
 
 -----
