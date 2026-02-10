@@ -760,14 +760,7 @@ Contributions are welcome! If you’d like to improve this project:
 1. Push to the branch (`git push origin feature/AmazingFeature`)
 1. Open a Pull Request
 
-Please ensure your code follows the existing style and includes comments.
-
-
-**Attribution appreciated but not required!**
-
-## 🙏 Acknowledgments
-
-### Educational Resources
+Please ensure your code follows the existing style and includes 
 
 - **Arduino Community**: For extensive documentation and examples
 - **Blynk Documentation**: Comprehensive IoT platform guides
