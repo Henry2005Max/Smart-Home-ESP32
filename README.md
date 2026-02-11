@@ -32,15 +32,15 @@ This final year project implements a fully automated smart home system that comb
 
 **Key Highlights:**
 
-- 🌡️ Real-time environmental monitoring (Temperature, Humidity, Rain)
-- 💡 Intelligent automatic lighting based on ambient conditions
-- 🚪 Automated door and window control with manual override
-- 📱 Remote control via Blynk mobile app
-- 🗣️ Voice control integration with Apple Siri
-- ☁️ Cloud connectivity for anywhere access
-- 🔄 Hybrid automation with manual override capabilities
+-  Real-time environmental monitoring (Temperature, Humidity, Rain)
+-  Intelligent automatic lighting based on ambient conditions
+-  Automated door and window control with manual override
+-  Remote control via Blynk mobile app
+-  Voice control integration with Apple Siri
+-  Cloud connectivity for anywhere access
+-  Hybrid automation with manual override capabilities
 
-## ✨ Features
+##  Features
 
 ### Phase 1: Core Automation & Sensing
 
@@ -71,7 +71,7 @@ This final year project implements a fully automated smart home system that comb
 - ✅ **Live Data Retrieval**: Voice query for current temperature via GET API
 - ✅ **Bidirectional Communication**: Full voice command and response interaction
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -211,7 +211,7 @@ lib_deps =
 - **Blynk Mobile App**: iOS App Store or Google Play Store
 - **Apple Shortcuts App**: Pre-installed on iOS devices
 
-## 📌 Pin Configuration
+##  Pin Configuration
 
 ```cpp
 // Sensor Pins
@@ -241,7 +241,7 @@ lib_deps =
 #define RFID_SCK_PIN   18      // SPI Clock
 ```
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### 1. Hardware Assembly
 
@@ -418,7 +418,7 @@ Note: ESP32 code should auto-reset V3 to 0 after 1.5 seconds
 3. Speak Text: "The room temperature is [Dictionary Value] degrees"
 ```
 
-## 📊 Phase-wise Development
+## Phase-wise Development
 
 ### Phase 1: Core Automation & Sensing ✅
 
@@ -472,7 +472,7 @@ Note: ESP32 code should auto-reset V3 to 0 after 1.5 seconds
 
 **Key Learning:** API integration, webhook configuration, voice assistant protocols
 
-## 🗣️ Voice Commands
+##  Voice Commands
 
 |Command                            |Action                                    |Feedback                                  |
 |-----------------------------------|------------------------------------------|------------------------------------------|
@@ -716,7 +716,7 @@ Error: Failed to read from DHT sensor!
 - Test in dry environment
 - Replace if corroded
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 ### Planned Features
 
