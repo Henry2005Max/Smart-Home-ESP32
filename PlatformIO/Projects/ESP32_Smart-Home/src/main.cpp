@@ -61,7 +61,7 @@ BLYNK_WRITE(V1) { // Fan Control
   }
 }
 
-BLYNK_WRITE(V2) { // Lights Control
+BLYNK_WRITE(V2) { // Lights Control 
   appLightState = param.asInt();
   // No beep for lights usually, but you can add one if you want!
 }
