@@ -1,6 +1,6 @@
 #define BLYNK_PRINT Serial
 
-// --- 1. BLYNK CONFIG ---
+// --- 1. BLYNK CONFIG --
 #define BLYNK_TEMPLATE_ID "TMPL2sDP-Ppku"
 #define BLYNK_TEMPLATE_NAME "New Template"
 #define BLYNK_AUTH_TOKEN ""
