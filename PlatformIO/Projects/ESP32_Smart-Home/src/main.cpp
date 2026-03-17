@@ -19,7 +19,7 @@ char pass[] = "";
 #include <Adafruit_SSD1306.h>
 #include <DHT.h>
 
-// --- PINS ---
+// --- PINS --
 #define FAN_PIN 4        // Relay 1
 #define LIGHT_PIN 16     // Relay 2 (LED Lights connect here)
 #define WINDOW_PIN 13    // Servo 1 (Window)
