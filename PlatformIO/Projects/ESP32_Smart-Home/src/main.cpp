@@ -6,7 +6,7 @@
 #define BLYNK_AUTH_TOKEN ""
 
 // --- 2. WIFI DETAILS ---
-// (Change these to "Henry iPhone" if you are using your hotspot!)
+
 char ssid[] = "MTN_4G_56DDF7";
 char pass[] = "";
 
