@@ -20,11 +20,8 @@
 - [Voice Commands](#voice-commands)
 - [API Integration](#api-integration)
 - [Usage Guide](#usage-guide)
-- [Troubleshooting](#troubleshooting)
-- [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+
+
 
 ## 🎯 Overview
 
