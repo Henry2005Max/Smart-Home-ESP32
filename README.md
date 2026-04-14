@@ -44,7 +44,7 @@ This final year project implements a fully automated smart home system that comb
 - ✅ **Environmental Monitoring**: DHT11 sensor for temperature and humidity tracking
 - ✅ **Secure Access Control**: RFID RC522 module for contactless door authentication
 - ✅ **Visual Display**: OLED screen for real-time data visualization
-- ✅ **Weather Station**: Fully functional mini weather station with rain detection
+- ✅ **Weather Station**: Fully functional mini weather station with rain detection 
 - ✅ **Automated Cooling**: Relay Channel 1 controls a fan based on system logic
 - ✅ **Rain Response**: Automatic window closing when rain is detected
 - ✅ **Smart Security**: SG90 Servo motor (0°-90°) for automated door/gate mechanism
